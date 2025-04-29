@@ -7,7 +7,9 @@ const Sidebar = () => {
     return (
         <div className='flex flex-col w-full max-w-[280px] bg-slate-100 h-screen shadow-[4px_0_6px_-2px_rgba(0,0,0,0.1)]'>
             <div className='px-4 py-3 flex items-center justify-center'>
-                <Image src={assets.logo} width={100} alt='Logo' />
+                <Link href='/'>
+                    <Image src={assets.logo} width={100} alt='Logo' />
+                </Link>
             </div>
 
             <nav className='flex flex-col gap-4 p-4 mt-10'>
